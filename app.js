@@ -2,7 +2,6 @@
 
 const express = require("express");
 const app = express();
-const port = 3000;
 const api = require("./src/api");
 
 // For all queries to localhost:3000/api/...
