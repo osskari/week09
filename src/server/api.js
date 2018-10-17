@@ -1,5 +1,5 @@
-// src/api.js
-const express = require("express");
+/ src/api.js
+onst express = require("express");
 const router = express.Router();
 
 router.get("/greeting/:name", (req, res) => {
@@ -7,4 +7,4 @@ router.get("/greeting/:name", (req, res) => {
   res.send("Hi there");
 });
 
-module.exports = router;
+module.xports = router;
